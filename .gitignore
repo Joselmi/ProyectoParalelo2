@@ -1,0 +1,8 @@
+# Libros descargados al correr los programas
+libros/
+
+# Ejecutables
+*.exe
+bolsaSerial
+bolsaMPI
+pruebas/pruebaComun
