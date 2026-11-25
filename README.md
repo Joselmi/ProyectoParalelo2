@@ -123,7 +123,7 @@ Desde la carpeta del proyecto, en la computadora de José Luis (Windows con g++ 
 g++ bolsaSerial.cpp -o bolsaSerial
 .\bolsaSerial.exe urls.txt J
 ```
-El segundo argumento es la letra de la computadora y es opcional. Se puede agregar un tercero con el número de repeticiones, por ejemplo `.\bolsaSerial.exe urls.txt J 5`.
+El segundo argumento es la letra de la computadora y es opcional. Se puede agregar un tercero con el número de repeticiones, por ejemplo ` .\bolsaSerial.exe urls.txt J 5`.
 
 La versión MPI se compila con el SDK de MS-MPI y se corre con `mpiexec`, donde `-n` es el número de procesos:
 ```
